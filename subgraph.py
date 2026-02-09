@@ -12,7 +12,7 @@ from pydantic import BaseModel, Field
 from typing import Literal
 from langchain_mistralai import ChatMistralAI
 
-key = "8zZVzNp9On4lCVnmfyBCQt33qjRCLezH"
+key = "Your Api key here"
 
 model = ChatMistralAI(
     model="mistral-large-2512",
